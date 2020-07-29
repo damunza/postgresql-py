@@ -17,7 +17,7 @@ def connect():
         conn = psycopg2.connect(**params)
 
         # creating a pointer to will allow interaction with the db
-        sat = conn.cusor()
+        sat = conn.cursor()
 
         # executing statemenrs
         print("First prompt - database version")
