@@ -12,7 +12,7 @@ def connect():
         params = config()
 
         # connecting to server
-        print("connecting to db...")
+        print("connecting to db ...")
         # use the driver psycopg2 function connect with kwargs(**params) to accept the output of configdb
         conn = psycopg2.connect(**params)
 
